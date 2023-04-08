@@ -1,0 +1,59 @@
+/* rule set #1: Everything within the body tag will have a yellow background. */
+body {
+    background-color: hwb(313 0% 0%);
+}
+
+/* rule set #2: Everything within a css-class class will have a lightgray background. */
+.css-class {
+    background-color: rgb(187, 248, 169);
+}
+
+/* rule set #3: All h1 tags within the css-class class will have a font-size of 18 pixels.*/
+.css-class h1 {
+    font-size: 18px;
+    color: rgb(165, 15, 15);
+}
+
+
+
+.css-class h3 {
+    font-size: 18px;
+    color: rgb(165, 15, 15);
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+  
+    /* We're using pixels to declare the font-size*/
+    font-size: 20px;
+  
+    /* Where px is an absolute length, rem is the size of an m based on the root font-size */
+    margin-top: 2rem;
+}
+
+/* rule set #4: All of the p tags within a css-class class will have orangered font 16 pixels high. */
+.css-class p {
+    font-size: 18px;
+    color: rgb(10, 10, 11);
+}
+
+/* rule set #5: All the li items within the css-class class will have a blue font. */
+.css-class li {
+    color: navy;
+}
+#Best-Deal {
+    background-color: aqua;
+    
+}
+
+.css-class {
+    border: 6px solid rgb(17, 61, 236);
+    margin: 7px;
+    padding: 20px 20px 20px 40px;
+}
+
+.css-class img{
+    height: 50%;
+    width: 25%;
+    
+}
